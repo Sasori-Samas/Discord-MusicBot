@@ -119,8 +119,7 @@ module.exports = {
             GuildDB ? GuildDB.prefix : client.botconfig.DefaultPrefix
           }help [Command] | Have a nice day!`
         ).setDescription(`${Commands.join("\n")}
-  
-  Discord Music Bot Version: v${require("../package.json").version}
+  Midnight Music Bot Version: v${require("../package.json").version}
   [✨ Server](${
     client.botconfig.SupportServer
   }) | By Kirai#0001`);
