@@ -22,7 +22,7 @@ module.exports = {
   Presence: {
     status: "online", // You can show online, idle, and dnd
     name: "discord.gg/minuit | +help", // The message shown
-    type: "STREAMING", url: "https://twitch.tv/amf_storm"}); // PLAYING, WATCHING, LISTENING, STREAMING
+    type: "LISTENING", // PLAYING, WATCHING, LISTENING, STREAMING
   },
 
   //Lavalink
