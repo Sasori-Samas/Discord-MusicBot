@@ -21,7 +21,7 @@ module.exports = {
   
   Presence: {
     status: "online", // You can show online, idle, and dnd
-    name: "discord.gg/minuit | +help", // The message shown
+    name: "Prefix (+)"
     type: "LISTENING", // PLAYING, WATCHING, LISTENING, STREAMING
   },
 
