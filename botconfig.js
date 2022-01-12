@@ -28,9 +28,10 @@ module.exports = {
   //Lavalink
   Lavalink: {
 
+id: "Main",
 Host : lavalink.devz.cloud or lavalink2.devz.cloud
 Port : 443
-Password : "mathiscool"
+Password : "mathiscool",
 Secure : true
 
   },
