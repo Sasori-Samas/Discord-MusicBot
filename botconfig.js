@@ -26,15 +26,15 @@ module.exports = {
   },
 
   //Lavalink
-  Lavalink: {
 
-id: "Main",
-Host : lavalink.devz.cloud or lavalink2.devz.cloud
-Port : 443
-Password : "mathiscool",
-Secure : true
-
+Lavalink: {
+    id: "Main",
+    host: lavalink.devz.cloud
+    port: 443, // The port that lavalink is listening to. This must be a number!
+    pass: "mathiscool",
+    secure: false, // Set this to true if the lavalink uses SSL or you're hosting lavalink on repl.it
   },
+
 
   //Please go to https://developer.spotify.com/dashboard/
   Spotify: {
